@@ -1,0 +1,2 @@
+# clipsnippet
+Codeigniter project
