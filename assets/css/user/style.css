@@ -1,0 +1,8 @@
+.selected{
+    background-color: #F8F8F8;
+    border-bottom: none;
+}
+
+#boxlogin, #boxrecovery, #boxregister{
+    margin-top: 30px;
+}

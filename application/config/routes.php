@@ -100,10 +100,12 @@ $route['templates'] = 'templates/controller_template/index';
 $route['templates/manage'] = 'templates/controller_template/manage';
 $route['templates/manage/(:num)'] = 'templates/controller_template/manage/$1';
 
-// =================== ROUTES CAMPAIGN =====================
+// =================== ROUTES CAMPAIGN =======================
 $route['campaign'] = 'campaign/controller_campaign/index';
 $route['campaign/manage'] = 'campaign/controller_campaign/manage';
 //$route['subcategories/(:num)'] = 'admin/SnippetCategories/index/$1';
 
+// =================== ROUTES USER =======================
+$route['profile'] = 'user/Controller_user/user_profile';
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

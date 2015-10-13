@@ -5,6 +5,7 @@ $lang['forgot'] = 'Recuperar Constraseña';
 $lang['register'] = 'Registrar Cuenta';
 // basics user forms
 
+$lang["company"] = "Empresa";
 $lang["firstname"] = "Nombre";
 $lang["lastname"] = "Apellidos";
 $lang["email"] = "Correo";
@@ -21,7 +22,12 @@ $lang["btn_form_cancel"] = "Cancelar";
 $lang["btn_form_recovery"] = "Recuperar Password";
 
 //$lang[""] = "";
-
+//
+// === user profile page ===
+$lang["title_profile"] = "Mi Perfil";
+$lang["account"] = "Editar Perfil";
+$lang["balance"] = "Estado de cuenta";
+$lang["support"] = "Soporte Usuario";
 
 
 // title pages

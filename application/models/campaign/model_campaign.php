@@ -9,6 +9,10 @@ class model_campaign extends CI_Model{
 		parent::__construct();
 	}
 
+	/**
+	 * Prepare the variables from insert campaign
+	 * @return array values from the campaign
+	 */
 	private function prepare_data()
 	{
 		$params = array(
@@ -24,6 +28,10 @@ class model_campaign extends CI_Model{
         return $params;
 	}
 
+	/**
+	 * Save the campaign on the db
+	 * @return int return the ID inserted
+	 */
 	public function store_campaign()
 	{
 
